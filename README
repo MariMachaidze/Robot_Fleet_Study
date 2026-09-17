@@ -1,0 +1,7 @@
+### Why SQLite now vs Postgres later
+
+SQLite doesn't need setup. It saves everything in one single .db file. 
+As for Postgres, it has separate server process. You need to send queries to it over a network connection. 
+
+For now, SQLite is better because, I dont need to set up a server yet and I can learn SQLAlchemy concepts and debug more easier. 
+Postgres later because it can handle once multiple robots are reporting to the backend at once. Since SQLAlchemy abstracts the database layer, switching later from SQLite to Postgres is easier, just one line. 
